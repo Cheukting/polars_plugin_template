@@ -1,7 +1,0 @@
-[template]
-cargo_generate_version = ">=0.18.0"
-
-# Every file here is run through the Liquid template engine, so `project-name`
-# and `crate_name` can be used anywhere, including in file and directory names.
-# Watch out when adding files: a doubled curly brace would be read as a Liquid
-# tag and swallowed.
