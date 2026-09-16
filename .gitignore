@@ -1,0 +1,5 @@
+.venv
+target/
+__pycache__
+_internal*.so
+_internal*.pyd
