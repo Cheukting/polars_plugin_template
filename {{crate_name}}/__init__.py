@@ -9,7 +9,7 @@ from polars.plugins import register_plugin_function
 from {{crate_name}}._internal import __version__ as __version__
 
 if TYPE_CHECKING:
-    from {{crate_name}}.typing import IntoExpr, IntoExprColumn
+    from {{crate_name}}._typing import IntoExpr, IntoExprColumn
 
 PLUGIN_PATH = Path(__file__).parent
 
