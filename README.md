@@ -15,7 +15,7 @@ expression logic is up to you.
 - `src/lib.rs` — the `_internal` PyO3 module and the Polars global allocator
 - `src/expressions.rs` — empty; your `#[polars_expr]` functions go here
 - `{{crate_name}}/__init__.py` — where you register each expression with Polars
-- `{{crate_name}}/typing.py` — `IntoExpr` / `IntoExprColumn` aliases, so we never import the private `polars._typing`
+- `{{crate_name}}/_typing.py` — `IntoExpr` / `IntoExprColumn` aliases, so we never import the private `polars._typing`
 - `{{crate_name}}/_internal.pyi` — type stub for the compiled module
 
 ## Getting started
