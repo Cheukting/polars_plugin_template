@@ -87,7 +87,7 @@ why `function_name` has to match the Rust function name exactly.
 
 ## Next steps
 
-Work through the [workshop README](https://github.com/Cheukting/polars-plugin-101#readme)
+Work through the [workshop README](https://github.com/Cheukting/polars_plugin_101#readme)
 for multi-column inputs, dtype dispatch, column-wise accumulation and kwargs.
 
 If you want CI for wheel builds, `maturin generate-ci github` will write a
